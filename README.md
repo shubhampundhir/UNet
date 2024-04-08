@@ -12,8 +12,7 @@ See dataPrepare.ipynb and data.py for detail.
 
 ### Model
 
-!(https://www.google.com/url?sa=i&url=https%3A%2F%2Ftowardsdatascience.com%2Funet-line-by-line-explanation-9b191c76baf5&psig=AOvVaw0jVPOES-DwkZZqGpDVBj8G&ust=1712640943405000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJCdgezysYUDFQAAAAAdAAAAABAE))
-
+![UNET_architecture](https://github.com/shubhampundhir/UNet/assets/56575094/bed931a6-da03-4848-b176-423f39c052fc)
 This deep neural network is implemented with Keras functional API, which makes it extremely easy to experiment with different interesting architectures.
 
 Output from the network is a 512*512 which represents mask that should be learned. Sigmoid activation function
