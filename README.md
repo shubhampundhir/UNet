@@ -1,2 +1,2 @@
-# UNet
-Semantic Segmentation with U-NET implementation from scratch.
+# U-Net-Model
+# U-Net-Model
