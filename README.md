@@ -1,19 +1,16 @@
-# Implementation of deep learning framework -- Unet, using Keras
+# Implementation of deep learning framework -- Unet, using Pytorch
 
 The architecture was inspired by [U-Net: Convolutional Networks for Biomedical Image Segmentation](http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/).
 
 ---
 ### Data augmentation
 
-The data for training contains 30 512*512 images, which are far not enough to feed a deep learning neural network. I use a module called ImageDataGenerator in keras.preprocessing.image to do data augmentation.
-
-See dataPrepare.ipynb and data.py for detail.
-
+The data for training contains 30 512*512 images, which are far not enough to feed a deep learning neural network. 
 
 ### Model
 
 ![UNET_architecture](https://github.com/shubhampundhir/UNet/assets/56575094/bed931a6-da03-4848-b176-423f39c052fc)
-This deep neural network is implemented with Keras functional API, which makes it extremely easy to experiment with different interesting architectures.
+This deep neural network is implemented with Pytorch, which makes it extremely easy to experiment with different interesting architectures.
 
 Output from the network is a 512*512 which represents mask that should be learned. Sigmoid activation function
 makes sure that mask pixels are in \[0, 1\] range.
