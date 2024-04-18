@@ -17,11 +17,11 @@ makes sure that mask pixels are in \[0, 1\] range.
 
 ### Training
 
-The model is trained for 5 epochs.
+The model is trained for 25 epochs.
 
-After 5 epochs, calculated accuracy is about 0.97.
+After 25 epochs, calculated mIoU is 65%  and overall validation accuracy is about 91%.
 
-Loss function for the training is basically just a binary crossentropy.
+Loss function for the training is basically just cross-entropy.
 
 
 ---
